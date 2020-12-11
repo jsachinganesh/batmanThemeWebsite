@@ -7,13 +7,19 @@
     
 }
 
-
+/* body{
+    background-color: #0c0537;
+} */
 
 #mainContainer{
     padding: 2rem;
     position: relative;
     height: max-content;
     background-color: #f2f2f09b;
+
+    
+
+    /* border: 5px solid #0c0537; */
 }
 
 .hide{
@@ -44,6 +50,7 @@
     align-items: center;
 
     position: relative;
+    border-radius: 5px;
 }
 
 .logo{
@@ -492,7 +499,7 @@ input:checked > .checkBox{
     align-items: center;
     
     flex-direction: row;
-    background-color: #f2f2f09b;
+    /* background-color: #f2f2f09b; */
 
 }
 
@@ -640,45 +647,56 @@ input:checked > .checkBox{
    
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 
     flex-direction: column;
 
-    background-image: url("./images/section4.jpg"); 
-    background-image: linear-gradient(to right, #ff4e5162, #f9d5239b), url("../images/section4.jpg");
+    /* background-image: url("./images/section4.jpg"); 
+    background-image: linear-gradient(to right bottom, rgb(58, 45, 21), #1200788c), url("../images/section4.jpg");
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    object-fit: contain;
+    object-fit: contain; */
     background-color: #f2f2f09b;
 
     position: relative;
     overflow: hidden;
 
-    clip-path: polygon(50% 0%, 100% 0, 100% 60%, 85% 84%, 11% 84%, 0 84%, 0 0);
+    /* margin-top: 4rem; */
 
-    /* margin-top: -2rem; */
+    /* padding-top: 4rem; */
+
+    background: #eb01a5;
+    background-image: url("../images/wall.jpg"); 
+    background-image: linear-gradient(to right bottom, rgb(58, 45, 21), #1200788c) , url(../images/wall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+   
     
 }
-/* .slideBox{
-    height: 80vh;
-    width: 80vw;
-} */
+
+#sliderSection > h1{
+    font-size: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
 .sliderContainer{
-    width: 50%;
-    height: 50%;
-    margin-right: 5rem;
+    width: 60%;
+    height: 60%;
+    /* margin-right: 20%; */
 
 
-    margin-top: -6rem;
+    margin-top: 2rem;
 
     position: relative;
     overflow: hidden;
 
     border-radius: 5px;
     background-color: #f2f2f09b;
+    
 
     -webkit-box-shadow: 0px 0px 15px -2px #000000; 
     box-shadow: 0px 0px 15px -2px #000000;
@@ -692,6 +710,7 @@ input:checked > .checkBox{
     width: 100%;
     height: 100%;
 
+
     position: absolute;
     transition: all .2s;
 }
@@ -702,7 +721,7 @@ input:checked > .checkBox{
     font-size: 4rem;
     display: flex;
     justify-content: space-around;
-    margin-right: 5rem;
+    /* margin-right: 25%; */
 }
 
 .sliders_btns > div{
@@ -716,24 +735,27 @@ input:checked > .checkBox{
 
 
 .batmanSide{
-    width: 600px;
-    height: 660px;
+    width: 400px;
+    height: 500px;
     position: absolute;
     
-    background-image: url("./images/batmanside.png"); 
+    background-image: url("./images/pro2.jpg"); 
     /* background-image: url("./images/batmanside.png"); */
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    top: -5%;
-    left: -5%;
+    top: 10%;
+    left: 5%;
 
-    animation-name: upDown;
+    border-radius: 5px;
+
+    /* animation-name: upDown;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
    
 }
+
 
 .batmanSideSlider{
     position: absolute;
@@ -743,8 +765,8 @@ input:checked > .checkBox{
     background-repeat: no-repeat;
     background-size: cover;
 
-    top: 65%;
-    right: 25%;
+    top: 85%;
+    right: 43%;
 
     width: 10rem;
     height: 70px;
@@ -803,6 +825,7 @@ input:checked > .checkBox{
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
+   
 
     display: flex;
     justify-content: center;
@@ -827,13 +850,19 @@ input:checked > .checkBox{
 /* section video */
 #videoSection{
     height: 104vh;
-    background-color: #f2f2f09b;
+    background-color: #f9f6f7;
     position: relative;
+
+
+
+
+
 }
 
 .video_container{
     width: 100%;
     height: 100%;    
+    
 }
 
 #myVideo{
@@ -848,7 +877,10 @@ input:checked > .checkBox{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, #0c053742, #003d763d, #0075a742, #00b1c13b, #12ebc33f);
+    
+    background-image: linear-gradient(to bottom, #f2f2f09b, #f2f2f09b, #f2f2f09b, #f2f2f09b, #f2f2f09b);
+
+    /* background-image: linear-gradient(to bottom, #0c053742, #003d763d, #0075a742, #00b1c13b, #12ebc33f); */
 }
 
 .overlayInner{
@@ -868,6 +900,10 @@ input:checked > .checkBox{
     align-items: center;
 
     font-size: 3rem;
+    color: #333;
+/* background: #912C22; */
+text-shadow: 0 0 10px #FFFFFF;
+
 }
 
 
@@ -888,12 +924,18 @@ input:checked > .checkBox{
 
     padding: .2rem;
 
-    -webkit-box-shadow: 0px 0px 15px -2px #000000; 
-    box-shadow: 0px 0px 15px -2px #000000;
+    -webkit-box-shadow: 0px 0px 5px -2px #000000; 
+    box-shadow: 0px 0px 5px -2px #000000;
 
     transition: all .2s;
+    
 
     cursor: pointer;
+    color:#31326f;
+    position: relative;
+    overflow: hidden;
+
+    border-bottom-right-radius: 50px;
 }
 
 .OverlayBox:hover{
@@ -901,11 +943,13 @@ input:checked > .checkBox{
 }
 
 .OverlayBox p{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #333;
+  font-size: 1.2rem;
 }
 
 .OverlayBox.two{
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .profile{
@@ -922,17 +966,58 @@ input:checked > .checkBox{
     margin-right: 1rem;
 
     margin: 1rem;
+
     
 }
 
-.OverlayBox.two .profile{
-    background-image: url("./images/pro2.jpg"); 
+/* .profile:hover{
+    filter: blur(5px);
+} */
+
+
+.overlayText{
+    position: absolute;
+    top: 0;
+    left: 8%;
+    transform: translateX(-442%);
+    transition: all 5s;
+    transform: translate(-435%,565%);
+    display: none;
+    transform: translateX(0);
+
+    display: none; 
+     pointer-events: none;
+} 
+
+.profile:hover + .overlayText{
+    transform: translateX(-442%);
+    display: block;
+    pointer-events: none;
+    
 }
 
 
+.OverlayBox.two .profile{
+    background-image: url("./images/pro2.jpg"); 
+} 
 
 
+#batTer{
+    width: 400px;
+}
 
+footer{
+
+    font-size: 5rem;
+    background-color: #0c0537;
+    padding: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-transform: uppercase;
+}
 
 
 
